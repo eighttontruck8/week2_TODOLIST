@@ -1,0 +1,78 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 10px;
+    padding: 10px;
+    background-color: #E1F6FA;
+    align-items: center;
+
+}
+
+section {
+    color:black;
+    background-color: #FFF0F5;
+    margin:10px;
+    padding-top:10px;
+    border-radius: 20px;
+}
+
+searchbox{
+    display: block;
+    color:black;
+    background-color: #B4E5FF;
+    padding-top: 15px; 
+    padding-bottom: 20px; 
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center; 
+}
+
+header{
+    display: block;
+    background-color : #fff;
+    /* font-family: ; cdn사용해서 폰트 불러오기 */
+    font-weight : bold;
+    height : 60px;
+    line-height: 60px;
+    padding : 15px;
+    margin-bottom: 40px; 
+    border-radius: 8px;
+    text-align: center; 
+
+}
+
+listbox{
+    display: block;
+    margin-top: 0px; 
+    border-radius: 20px;
+    background-color: #FFE4E1;
+    margin-bottom: 10px; 
+    padding: 5px; 
+    text-align: left; 
+    border-radius: 8px;
+
+}
+
+ul{
+    display: block;
+    padding-right: 30px;
+    text-align: center; 
+    align-items: center;
+    background-color: #fff;
+    padding-top:20px;
+    padding-bottom:40px;
+
+}
+
+p{
+    text-align: center;
+    color:gray;
+}
+
+
+.pixelify-sans-AB {
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 40px;
+    font-style: normal;
+  }

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todolist</title>
+    <link rel="stylesheet" href="todolist.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet"></head>
+
+<body>
+    <section>
+        <listbox id="todo-app">
+            <header class="pixelify-sans-AB"> TODO LIST </header>
+                <ul id="todo-list"> 
+                
+            
+                    <searchbox>
+                        <input type="text" id="todo-input" placeholder="할 일을 입력해주세요" onkeydown="keyCodeCheck()">
+                    
+                        <button id="add-todo"> add </button> 
+                    </searchbox>
+                <!--
+                    리스트 들어오는 곳
+                -->
+                </ul> <!--list 끝-->
+            
+            <br>
+            <checkedlist>
+                <header class="pixelify-sans-AB"> DONE LIST </header>
+            </checkedlist>
+        </listbox>
+        <br>
+        <script src="todolist.js"></script>
+
+
+    </section>
+</body>
+<p> 24-1 FE Beginner #02) TODO LIST 2022136080 윤해인   </p>
+
+</html>
