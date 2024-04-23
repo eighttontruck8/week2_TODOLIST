@@ -14,27 +14,27 @@
     <section>
         <listbox id="todo-app">
             <header class="pixelify-sans-AB"> TODO LIST </header>
-                <ul id="todo-list"> 
-                
-            
+                <ul id="todo-list">             
                     <searchbox>
-                        <input type="text" id="todo-input" placeholder="할 일을 입력해주세요" onkeydown="keyCodeCheck()">
+                        <input type="text" id="todo-input" placeholder="할 일을 입력해주세요">
                     
                         <button id="add-todo"> add </button> 
                     </searchbox>
                 <!--
                     리스트 들어오는 곳
                 -->
+                
                 </ul> <!--list 끝-->
             
-            <br>
-            <checkedlist>
-                <header class="pixelify-sans-AB"> DONE LIST </header>
-            </checkedlist>
-        </listbox>
-        <br>
-        <script src="todolist.js"></script>
+                <br>
 
+                <ul id="done-list">
+                    <header class="pixelify-sans-AB"> DONE LIST </header>
+                </ul>
+        
+                <br>
+            <script src="todolist.js"></script>
+        </listbox>
 
     </section>
 </body>
