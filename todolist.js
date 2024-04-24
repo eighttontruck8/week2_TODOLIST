@@ -24,18 +24,22 @@ button.onclick = function() {
                 //console.log("test");
                 todolist.removeChild(this.parentNode);
         }
+          
 
         checkButton.onclick = function() {
             //console.log("test");
-            const doneList = document.getElementById('done-list');
+            const doneList = document.getElementById("done-list");
             doneList.appendChild(newList);
-            newList.removeChild(deleteButton);
             newList.removeChild(checkButton);
+            newList.removeChild(deleteButton);
+
         };
+        
     
         newList.appendChild(deleteButton);
         newList.appendChild(checkButton);
         todolist.appendChild(newList); //newDiv를 자식요소(하위요소)로 넣어줌 > html은 tree형태.*/
         todolist.appendChild(doneList);
     }
+
 }
